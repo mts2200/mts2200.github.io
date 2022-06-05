@@ -1,0 +1,39 @@
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../media/backgroud.png);
+}
+
+.username {
+    color:ghostwhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 500%;
+    vertical-align: middle;
+    margin-bottom: 800px;
+}
+
+.links {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-right: 90px;
+    margin-top: 90px;
+}
+
+.links li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+.links li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    color: white;
+}
