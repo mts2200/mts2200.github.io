@@ -8,33 +8,31 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../media/backgroud.png);
-    background-size: auto;
+    background: url(../media/backgroud.png);
+    background-size: 200vh;
 }
-
 .username {
+    letter-spacing: 1px;
     color:ghostwhite;
-    font-family: 'Roboto', sans-serif;
-    font-size: 500%;
-    vertical-align: middle;
-    margin-bottom: 800px;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 400%;
+    margin-bottom: 700px;
+    text-align: center
 }
-
 .links {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Unbounded', sans-serif;
     position: absolute;
-    margin-right: 90px;
+    margin-right: 25px;
     margin-top: 90px;
 }
-
 .links li {
     list-style-type: none;
     display: inline;
-    padding: 5px;
+    padding: 10px;
 }
-
 .links li a {
-    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    font-family: 'Unbounded', sans-serif;
     font-size: 300%;
     color: white;
 }
