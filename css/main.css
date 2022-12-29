@@ -14,13 +14,13 @@ body {
 .username {
     letter-spacing: 1px;
     color:ghostwhite;
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 400%;
     margin-bottom: 700px;
     text-align: center
 }
 .links {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: absolute;
     margin-right: 25px;
     margin-top: 90px;
@@ -32,7 +32,7 @@ body {
 }
 .links li a {
     letter-spacing: 3px;
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 300%;
     color: white;
 }
