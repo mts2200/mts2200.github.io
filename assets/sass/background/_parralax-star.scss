@@ -1,0 +1,58 @@
+html {
+  overflow: hidden;
+}
+
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    width: 1px;
+    height: 1px;
+    background: transparent;
+  }
+}
+
+#stars-medium {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+  }
+}
+
+#stars-big {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    width: 3px;
+    height: 3px;
+    background: transparent;
+  }
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-100vh);
+  }
+}
