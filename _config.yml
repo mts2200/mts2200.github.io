@@ -1,4 +1,3 @@
 sass:
     style: expanded
     sass_dir: assets/sass
-include: [".well-known"]
