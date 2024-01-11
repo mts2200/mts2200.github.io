@@ -1,3 +1,11 @@
+title: mts2200
+author: mts2200
+
 sass:
     style: expanded
     sass_dir: assets/sass
+
+exclude:
+  - "README.md"
+  - "LICENSE"
+  - ".gitignore"
