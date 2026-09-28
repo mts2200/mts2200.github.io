@@ -1,0 +1,22 @@
+on:
+  push:
+    workflows: build-site
+    filter:
+      branches: main
+
+workflows:
+  build-site:
+    tasks:
+      - name: build-site
+        cubes:
+          - name: build
+            image: ruby:3.3
+            script:
+              - gem install jekyll
+              - jekyll build
+          - name: publish
+            script:
+              - git checkout -b release
+              - git add -f _site
+              - 'git commit -m "Site release"'
+              - git push origin release -f
